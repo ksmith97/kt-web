@@ -4,8 +4,8 @@
   "description": "Basic web frontend project.",
   "main": "index.js",
   "scripts": {
-    "test": "test",
-    "start": "webpack-dev-server --inline --content-base ."
+    "start": "webpack-dev-server --inline --content-base .",
+    "test": "mocha lib/**/*-test.js"
   },
   "repository": {
     "type": "git",
@@ -35,5 +35,7 @@
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-router": "^2.8.1"
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
   }
 }
