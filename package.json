@@ -20,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/ksmith97/kt-web/issues"
   },
-  "homepage": "https://github.com/ksmith97/kt-web#readme"
+  "homepage": "https://github.com/ksmith97/kt-web#readme",
+  "devDependencies": {
+    "eslint": "^3.5.0",
+    "eslint-config-standard": "^6.0.1",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-react": "^6.3.0",
+    "eslint-plugin-standard": "^2.0.0"
+  }
 }
