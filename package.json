@@ -1,0 +1,24 @@
+{
+  "name": "kt-web",
+  "version": "0.0.1",
+  "description": "Basic web frontend project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksmith97/kt-web.git"
+  },
+  "keywords": [
+    "Node.js",
+    "JavaScript",
+    "React"
+  ],
+  "author": "Kevin.A.Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksmith97/kt-web/issues"
+  },
+  "homepage": "https://github.com/ksmith97/kt-web#readme"
+}
