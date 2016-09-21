@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --inline --content-base .",
+    "lint": "eslint lib/**",
     "test": "mocha lib/**/*-test.js"
   },
   "repository": {
