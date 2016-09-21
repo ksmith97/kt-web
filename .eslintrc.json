@@ -5,6 +5,9 @@
       "jsx": true
     }
   },
+  "env": {
+    "mocha": true
+  },
   "extends": ["standard", "eslint:recommended", "plugin:react/recommended"],
   "plugins": [
     "standard",
