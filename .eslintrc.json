@@ -1,0 +1,21 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": ["standard", "eslint:recommended", "plugin:react/recommended"],
+  "plugins": [
+    "standard",
+    "promise",
+    "react"
+  ],
+  "settings": {
+    "react": {
+      "createClass": "createClass",
+      "pragma": "React",
+      "version": "15.3.2"
+    }
+  }
+}
