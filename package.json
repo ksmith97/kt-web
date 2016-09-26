@@ -7,7 +7,8 @@
     "start": "webpack-dev-server --inline --content-base .",
     "lint": "eslint lib/**",
     "test": "jest --config .jest.json",
-    "coverage": "jest --config .jest.json --coverage"
+    "coverage": "jest --config .jest.json --coverage",
+    "watch": "jest --config .jest.json --coverage --watch"
   },
   "repository": {
     "type": "git",
