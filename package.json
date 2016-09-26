@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --inline --content-base .",
     "lint": "eslint lib/**",
-    "test": "jest"
+    "test": "jest --config .jest.json",
+    "coverage": "jest --config .jest.json --coverage"
   },
   "repository": {
     "type": "git",
